@@ -16,7 +16,7 @@ app.use(morgan('dev'))
 app.use(cors())
 
 // const url = "mongodb://127.0.0.1:27017/test"
-const url = "mongodb+srv://flutteradmin:AN5YC@v6j7t&alpha@navydive.gt8hbch.mongodb.net/ecom-backend?retryWrites=true&w=majority"
+const url = "mongodb+srv://myuser:1qaz2wsx3edc@navydive.gt8hbch.mongodb.net/ecom-backend?retryWrites=true&w=majority"
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
 
 //USER ROUTES
