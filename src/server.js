@@ -39,5 +39,5 @@ app.use("/api/cart", CartRoutes)
 const OrderRoutes = require('./routes/order_routes')
 app.use('/api/order', OrderRoutes)
 
-const PORT = 80
+const PORT = 3000
 app.listen(PORT, () => console.log(`server started ${PORT}`))
